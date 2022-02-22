@@ -1,0 +1,56 @@
+@font-face{
+    font-family:'moubi';
+    src:url('Brush.woff') format("woff"),
+        url('Brush.ttf') format("truetype");
+}
+a{
+    text-decoration:none;
+}
+a:visited {
+    color: brown;
+}
+a:link {
+    color: rgb(247, 248, 196);
+}
+body{
+    background-color: #000000;
+    color: #a72323;
+}
+.tital{
+    float: left;
+    width: 17%;
+}
+#Logo{
+    position: relative;
+    float: left;
+    left: 50px; 
+    top: 50px;
+    width: 10%;
+}
+
+#Tital{
+    position: relative;
+    color: azure;
+    left: 220px;
+    top: 135px; 
+    width: 70%;
+    height: 50px;
+    z-index: 500;
+    background-size: 103%;  
+    font-family:'moubi';
+}
+#Other{
+    position: relative;
+    left: 50px;
+    top: 150px; 
+    height: 300px;
+    width: 10%;
+}
+.main{
+    position: relative;
+    left: 350px;
+    top: -50px; 
+    width: 70%;
+    font-family:'moubi';
+    text-shadow: 2px 2px 2px #270c0c;
+}
